@@ -1,0 +1,8 @@
+C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\bin\Debug\MvcGenerateNumbers.Tests.dll.config
+C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\bin\Debug\MvcGenerateNumbers.Tests.dll
+C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\bin\Debug\MvcGenerateNumbers.Tests.pdb
+C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\bin\Debug\MvcGenerateNumbers.dll
+C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\bin\Debug\MvcGenerateNumbers.pdb
+C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\obj\Debug\MvcGenerateNumbers.Tests.dll
+C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\obj\Debug\MvcGenerateNumbers.Tests.pdb

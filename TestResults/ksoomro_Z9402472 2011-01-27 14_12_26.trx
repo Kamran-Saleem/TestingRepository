@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0a407460-336f-4066-82dc-3ee9fa72a597" name="ksoomro@Z9402472 2011-01-27 14:12:26" runUser="CORP\ksoomro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="8a4e9d3b-795b-4d04-8343-ec0acba00568">
+    <Deployment runDeploymentRoot="ksoomro_Z9402472 2011-01-27 14_12_26">
+      <DeploymentItem filename="C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers\bin\MvcGenerateNumbers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-27T14:12:26.6687044+01:00" queuing="2011-01-27T14:12:31.0831458+01:00" start="2011-01-27T14:12:31.3161691+01:00" finish="2011-01-27T14:12:33.8554230+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="18" executed="18" passed="18" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="89274011-162b-1598-d999-57bf4d2c129b">
+      <Execution id="8c09377c-89b5-4162-874a-82093ec68b8f" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="674f28f4-f51c-0e6d-4724-196b069b3ff0">
+      <Execution id="86757b51-c795-4e99-b9ba-b32719e4c05f" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="3691b47e-073e-3e71-449f-564774802832">
+      <Execution id="ee1b3249-a521-48ca-a60e-6f606bf97dd5" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="9f6a0734-9a2a-95df-951b-7c11bdf14d8e">
+      <Execution id="0a0b61d5-1144-4a42-b3ab-90d0637e8e9d" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="7d4f2fb2-e7f2-4d64-739d-985981f30f31">
+      <Execution id="30d5c371-d5d1-47d4-9a3d-c099ca4df06a" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="b4b39f2e-ea39-5790-1164-ad0464138e24">
+      <Execution id="6fc10940-29c1-4280-a34a-ad67bb00268c" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="2d646ecf-7121-dc04-0e66-97b22b54d5cf">
+      <Execution id="daf60ffe-1c78-4681-93cb-2c8d17ee7682" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="3fb99786-defe-a308-9b52-84bad80d12f3">
+      <Execution id="8d3f9a7e-9efd-4aca-a880-e8f23b41a57f" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.HomeControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="a34c4cf6-6920-cb91-54f9-49b52a510a36">
+      <Execution id="2f059b31-dbb5-4830-a6df-339f933d7593" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="105c3afa-59ee-d59d-cf8a-918d708ffea1">
+      <Execution id="6e6c5b45-b673-4320-b8bc-fee46f6ae7e7" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="3dceeda0-a124-2a1a-1726-7552234e0091">
+      <Execution id="05699cf4-7f98-48a2-babf-edb3da4ecdce" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.HomeControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectToHomeOnSuccess_WithExternalReturnUrl" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="23aaa902-d5ec-ca3a-c158-0a64a5714701">
+      <Execution id="b51aac97-18e7-450a-8080-4899413a0aa4" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectToHomeOnSuccess_WithExternalReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithLocalReturnUrl" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="87691c2b-be9c-27c8-d4c7-022428c68463">
+      <Execution id="32115489-c648-4fcb-9df8-46afcb7b70d3" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithLocalReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="8f57472b-10f0-5424-7562-f50a83954369">
+      <Execution id="85a505cb-fc57-4bcd-855b-db5a6e4fac7f" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="7f094b5d-28e0-0d05-745b-8b7300e70f75">
+      <Execution id="4e549447-a6bf-4cc2-b24d-0ef773541f8f" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="20defe1d-5eb6-d58f-b378-a1e804046b3b">
+      <Execution id="217ee25e-8f39-4cc0-9e52-9833f8dc06fe" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="fc184e4e-b7ac-5e87-0fa5-9f3779dbf3f0">
+      <Execution id="6ae80543-e3cb-49a1-8e1f-68d61edc7b75" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="d78b7385-5668-c34a-bad2-ff2705575079">
+      <Execution id="3785a19c-154f-4665-9a2a-ebc2d5d82284" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="105c3afa-59ee-d59d-cf8a-918d708ffea1" executionId="6e6c5b45-b673-4320-b8bc-fee46f6ae7e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20defe1d-5eb6-d58f-b378-a1e804046b3b" executionId="217ee25e-8f39-4cc0-9e52-9833f8dc06fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23aaa902-d5ec-ca3a-c158-0a64a5714701" executionId="b51aac97-18e7-450a-8080-4899413a0aa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d646ecf-7121-dc04-0e66-97b22b54d5cf" executionId="daf60ffe-1c78-4681-93cb-2c8d17ee7682" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3691b47e-073e-3e71-449f-564774802832" executionId="ee1b3249-a521-48ca-a60e-6f606bf97dd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dceeda0-a124-2a1a-1726-7552234e0091" executionId="05699cf4-7f98-48a2-babf-edb3da4ecdce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fb99786-defe-a308-9b52-84bad80d12f3" executionId="8d3f9a7e-9efd-4aca-a880-e8f23b41a57f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="674f28f4-f51c-0e6d-4724-196b069b3ff0" executionId="86757b51-c795-4e99-b9ba-b32719e4c05f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d4f2fb2-e7f2-4d64-739d-985981f30f31" executionId="30d5c371-d5d1-47d4-9a3d-c099ca4df06a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f094b5d-28e0-0d05-745b-8b7300e70f75" executionId="4e549447-a6bf-4cc2-b24d-0ef773541f8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87691c2b-be9c-27c8-d4c7-022428c68463" executionId="32115489-c648-4fcb-9df8-46afcb7b70d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89274011-162b-1598-d999-57bf4d2c129b" executionId="8c09377c-89b5-4162-874a-82093ec68b8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f57472b-10f0-5424-7562-f50a83954369" executionId="85a505cb-fc57-4bcd-855b-db5a6e4fac7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f6a0734-9a2a-95df-951b-7c11bdf14d8e" executionId="0a0b61d5-1144-4a42-b3ab-90d0637e8e9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a34c4cf6-6920-cb91-54f9-49b52a510a36" executionId="2f059b31-dbb5-4830-a6df-339f933d7593" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4b39f2e-ea39-5790-1164-ad0464138e24" executionId="6fc10940-29c1-4280-a34a-ad67bb00268c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d78b7385-5668-c34a-bad2-ff2705575079" executionId="3785a19c-154f-4665-9a2a-ebc2d5d82284" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc184e4e-b7ac-5e87-0fa5-9f3779dbf3f0" executionId="6ae80543-e3cb-49a1-8e1f-68d61edc7b75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6e6c5b45-b673-4320-b8bc-fee46f6ae7e7" testId="105c3afa-59ee-d59d-cf8a-918d708ffea1" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="Z9402472" duration="00:00:00.8136304" startTime="2011-01-27T14:12:31.3981773+01:00" endTime="2011-01-27T14:12:33.1043479+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e6c5b45-b673-4320-b8bc-fee46f6ae7e7">
+    </UnitTestResult>
+    <UnitTestResult executionId="217ee25e-8f39-4cc0-9e52-9833f8dc06fe" testId="20defe1d-5eb6-d58f-b378-a1e804046b3b" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="Z9402472" duration="00:00:00.0252480" startTime="2011-01-27T14:12:33.1163491+01:00" endTime="2011-01-27T14:12:33.1513526+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="217ee25e-8f39-4cc0-9e52-9833f8dc06fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="b51aac97-18e7-450a-8080-4899413a0aa4" testId="23aaa902-d5ec-ca3a-c158-0a64a5714701" testName="LogOn_Post_ReturnsRedirectToHomeOnSuccess_WithExternalReturnUrl" computerName="Z9402472" duration="00:00:00.0006715" startTime="2011-01-27T14:12:33.1643539+01:00" endTime="2011-01-27T14:12:33.1713546+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b51aac97-18e7-450a-8080-4899413a0aa4">
+    </UnitTestResult>
+    <UnitTestResult executionId="daf60ffe-1c78-4681-93cb-2c8d17ee7682" testId="2d646ecf-7121-dc04-0e66-97b22b54d5cf" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="Z9402472" duration="00:00:00.1877511" startTime="2011-01-27T14:12:33.1833558+01:00" endTime="2011-01-27T14:12:33.3803755+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="daf60ffe-1c78-4681-93cb-2c8d17ee7682">
+    </UnitTestResult>
+    <UnitTestResult executionId="ee1b3249-a521-48ca-a60e-6f606bf97dd5" testId="3691b47e-073e-3e71-449f-564774802832" testName="Register_Get_ReturnsView" computerName="Z9402472" duration="00:00:00.0028739" startTime="2011-01-27T14:12:33.3953770+01:00" endTime="2011-01-27T14:12:33.4073782+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee1b3249-a521-48ca-a60e-6f606bf97dd5">
+    </UnitTestResult>
+    <UnitTestResult executionId="05699cf4-7f98-48a2-babf-edb3da4ecdce" testId="3dceeda0-a124-2a1a-1726-7552234e0091" testName="About" computerName="Z9402472" duration="00:00:00.0006351" startTime="2011-01-27T14:12:33.4203795+01:00" endTime="2011-01-27T14:12:33.4293804+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05699cf4-7f98-48a2-babf-edb3da4ecdce">
+    </UnitTestResult>
+    <UnitTestResult executionId="8d3f9a7e-9efd-4aca-a880-e8f23b41a57f" testId="3fb99786-defe-a308-9b52-84bad80d12f3" testName="Index" computerName="Z9402472" duration="00:00:00.0614927" startTime="2011-01-27T14:12:33.4413816+01:00" endTime="2011-01-27T14:12:33.5103885+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d3f9a7e-9efd-4aca-a880-e8f23b41a57f">
+    </UnitTestResult>
+    <UnitTestResult executionId="86757b51-c795-4e99-b9ba-b32719e4c05f" testId="674f28f4-f51c-0e6d-4724-196b069b3ff0" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="Z9402472" duration="00:00:00.0034714" startTime="2011-01-27T14:12:33.5203895+01:00" endTime="2011-01-27T14:12:33.5323907+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86757b51-c795-4e99-b9ba-b32719e4c05f">
+    </UnitTestResult>
+    <UnitTestResult executionId="30d5c371-d5d1-47d4-9a3d-c099ca4df06a" testId="7d4f2fb2-e7f2-4d64-739d-985981f30f31" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="Z9402472" duration="00:00:00.0004854" startTime="2011-01-27T14:12:33.5473922+01:00" endTime="2011-01-27T14:12:33.5573932+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30d5c371-d5d1-47d4-9a3d-c099ca4df06a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e549447-a6bf-4cc2-b24d-0ef773541f8f" testId="7f094b5d-28e0-0d05-745b-8b7300e70f75" testName="LogOff_LogsOutAndRedirects" computerName="Z9402472" duration="00:00:00.0006813" startTime="2011-01-27T14:12:33.5703945+01:00" endTime="2011-01-27T14:12:33.5773952+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e549447-a6bf-4cc2-b24d-0ef773541f8f">
+    </UnitTestResult>
+    <UnitTestResult executionId="32115489-c648-4fcb-9df8-46afcb7b70d3" testId="87691c2b-be9c-27c8-d4c7-022428c68463" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithLocalReturnUrl" computerName="Z9402472" duration="00:00:00.0005042" startTime="2011-01-27T14:12:33.5893964+01:00" endTime="2011-01-27T14:12:33.5963971+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32115489-c648-4fcb-9df8-46afcb7b70d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c09377c-89b5-4162-874a-82093ec68b8f" testId="89274011-162b-1598-d999-57bf4d2c129b" testName="ChangePasswordSuccess_ReturnsView" computerName="Z9402472" duration="00:00:00.0003323" startTime="2011-01-27T14:12:33.6063981+01:00" endTime="2011-01-27T14:12:33.6133988+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c09377c-89b5-4162-874a-82093ec68b8f">
+    </UnitTestResult>
+    <UnitTestResult executionId="85a505cb-fc57-4bcd-855b-db5a6e4fac7f" testId="8f57472b-10f0-5424-7562-f50a83954369" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="Z9402472" duration="00:00:00.0014585" startTime="2011-01-27T14:12:33.6233998+01:00" endTime="2011-01-27T14:12:33.6324007+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85a505cb-fc57-4bcd-855b-db5a6e4fac7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a0b61d5-1144-4a42-b3ab-90d0637e8e9d" testId="9f6a0734-9a2a-95df-951b-7c11bdf14d8e" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="Z9402472" duration="00:00:00.0007168" startTime="2011-01-27T14:12:33.6424017+01:00" endTime="2011-01-27T14:12:33.6494024+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a0b61d5-1144-4a42-b3ab-90d0637e8e9d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2f059b31-dbb5-4830-a6df-339f933d7593" testId="a34c4cf6-6920-cb91-54f9-49b52a510a36" testName="LogOn_Get_ReturnsView" computerName="Z9402472" duration="00:00:00.0004602" startTime="2011-01-27T14:12:33.6634038+01:00" endTime="2011-01-27T14:12:33.6724047+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f059b31-dbb5-4830-a6df-339f933d7593">
+    </UnitTestResult>
+    <UnitTestResult executionId="6fc10940-29c1-4280-a34a-ad67bb00268c" testId="b4b39f2e-ea39-5790-1164-ad0464138e24" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="Z9402472" duration="00:00:00.0006287" startTime="2011-01-27T14:12:33.6834058+01:00" endTime="2011-01-27T14:12:33.6924067+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fc10940-29c1-4280-a34a-ad67bb00268c">
+    </UnitTestResult>
+    <UnitTestResult executionId="3785a19c-154f-4665-9a2a-ebc2d5d82284" testId="d78b7385-5668-c34a-bad2-ff2705575079" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="Z9402472" duration="00:00:00.0005094" startTime="2011-01-27T14:12:33.7044079+01:00" endTime="2011-01-27T14:12:33.7124087+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3785a19c-154f-4665-9a2a-ebc2d5d82284">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ae80543-e3cb-49a1-8e1f-68d61edc7b75" testId="fc184e4e-b7ac-5e87-0fa5-9f3779dbf3f0" testName="ChangePassword_Get_ReturnsView" computerName="Z9402472" duration="00:00:00.0028217" startTime="2011-01-27T14:12:33.7264101+01:00" endTime="2011-01-27T14:12:33.7394114+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ae80543-e3cb-49a1-8e1f-68d61edc7b75">
+    </UnitTestResult>
+  </Results>
+</TestRun>
