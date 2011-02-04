@@ -314,6 +314,12 @@ namespace MvcGenerateNumbers.Tests.Controllers
         }
 
         [TestMethod]
+        public void Testing_Fail_Test()
+        {
+            Assert.AreEqual(2, 3);
+        }
+
+        [TestMethod]
         public void Register_Post_ReturnsViewIfModelStateIsInvalid()
         {
             // Arrange

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2c2b3c30-79f1-4445-a37e-23d8851e072c" name="ksoomro@Z9402472 2011-02-04 12:40:32" runUser="CORP\ksoomro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b0870acf-f521-4454-ac2e-74926fd64900">
+    <Deployment runDeploymentRoot="ksoomro_Z9402472 2011-02-04 12_40_32">
+      <DeploymentItem filename="C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers\bin\MvcGenerateNumbers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-04T12:40:32.5623154+01:00" queuing="2011-02-04T12:40:35.4336025+01:00" start="2011-02-04T12:40:36.3436935+01:00" finish="2011-02-04T12:40:40.1530744+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Testing_Fail_Test" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="d4d55789-fe9d-3d32-df39-e1f5780c16da">
+      <Execution id="9dafaa63-7c0f-40ca-8bde-211eb9f12778" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Testing_Fail_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d4d55789-fe9d-3d32-df39-e1f5780c16da" executionId="9dafaa63-7c0f-40ca-8bde-211eb9f12778" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9dafaa63-7c0f-40ca-8bde-211eb9f12778" testId="d4d55789-fe9d-3d32-df39-e1f5780c16da" testName="Testing_Fail_Test" computerName="Z9402472" duration="00:00:00.5543435" startTime="2011-02-04T12:40:36.8487440+01:00" endTime="2011-02-04T12:40:39.8620453+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dafaa63-7c0f-40ca-8bde-211eb9f12778">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;3&gt;. </Message>
+          <StackTrace>   at MvcGenerateNumbers.Tests.Controllers.AccountControllerTest.Testing_Fail_Test() in C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers.Tests\Controllers\AccountControllerTest.cs:line 319
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
