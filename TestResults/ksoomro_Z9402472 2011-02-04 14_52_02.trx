@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1f3c3470-43a2-4e9e-a741-95dde117e8db" name="ksoomro@Z9402472 2011-02-04 14:52:02" runUser="CORP\ksoomro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="195de53d-6751-4c68-b7c5-743743ee1dca">
+    <Deployment runDeploymentRoot="ksoomro_Z9402472 2011-02-04 14_52_02">
+      <DeploymentItem filename="C:\Users\ksoomro\documents\visual studio 2010\Projects\MvcGenerateNumbers\MvcGenerateNumbers\bin\MvcGenerateNumbers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-04T14:52:02.7092935+01:00" queuing="2011-02-04T14:52:04.2714497+01:00" start="2011-02-04T14:52:06.6706896+01:00" finish="2011-02-04T14:52:08.8119037+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Testing_Fail_Test" storage="c:\users\ksoomro\documents\visual studio 2010\projects\mvcgeneratenumbers\mvcgeneratenumbers.tests\bin\debug\mvcgeneratenumbers.tests.dll" id="d4d55789-fe9d-3d32-df39-e1f5780c16da">
+      <Execution id="364581c7-69ba-40ac-8aef-af17aa02cffc" />
+      <TestMethod codeBase="C:/Users/ksoomro/documents/visual studio 2010/Projects/MvcGenerateNumbers/MvcGenerateNumbers.Tests/bin/Debug/MvcGenerateNumbers.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcGenerateNumbers.Tests.Controllers.AccountControllerTest, MvcGenerateNumbers.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Testing_Fail_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d4d55789-fe9d-3d32-df39-e1f5780c16da" executionId="364581c7-69ba-40ac-8aef-af17aa02cffc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="364581c7-69ba-40ac-8aef-af17aa02cffc" testId="d4d55789-fe9d-3d32-df39-e1f5780c16da" testName="Testing_Fail_Test" computerName="Z9402472" duration="00:00:00.0136982" startTime="2011-02-04T14:52:07.2977523+01:00" endTime="2011-02-04T14:52:08.6638889+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="364581c7-69ba-40ac-8aef-af17aa02cffc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

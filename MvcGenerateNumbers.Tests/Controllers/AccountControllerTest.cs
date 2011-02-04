@@ -316,7 +316,7 @@ namespace MvcGenerateNumbers.Tests.Controllers
         [TestMethod]
         public void Testing_Fail_Test()
         {
-            Assert.AreEqual(2, 3);
+            Assert.AreEqual(2, 2);
         }
 
         [TestMethod]
